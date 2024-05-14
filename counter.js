@@ -3,6 +3,7 @@ var counter = 0;
 var displayBox = document.getElementById("displayBox");
 var decrementBtn = document.getElementById("decrementBtn");
 var even_odd = document.getElementById("even_odd");
+var record = document.getElementById("record")
 var counter_ary = [];
 
 
@@ -19,8 +20,8 @@ function increment() {
   }
   decrementBtn.disabled = false;
 
-  counter_ary.push("(+)"+counter)  
-
+  counter_ary.push("+"+counter)  
+ record.innerText = "HISTORY = "+counter_ary;
   console.log(counter_ary);
 }
 
@@ -57,7 +58,8 @@ function decrement() {
             even_odd.innerText = "ODD";
             }
 
-            counter_ary.push("(-)"+counter)  
+            counter_ary.push("-"+counter)  
+            record.innerText ="HISTORY = " + counter_ary;
             console.log(counter_ary);
   }
 }

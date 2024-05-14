@@ -45,6 +45,16 @@ h1 {
 
 
 }
+#record{  
+    /* background-image: linear-gradient(to right, rgb(166, 61, 61), orange); */
+    background-color: rgba(255, 255, 255,0.1);
+    font-size: 25px;
+    text-shadow: 2px -2px 2px white;
+    box-shadow: 2px 10px 15px brown;
+    text-align: center;
+    overflow-x: scroll;
+    width: 40%;
+}
 
 .push {
     /* border: 2px solid brown; */
