@@ -32,7 +32,7 @@ function decrement() {
 
   if (counter <= 0) {
     decrementBtn.disabled = true;
-    alert("InitallyCcounter is at 0");
+    alert("Initally Counter is at 0");
   }
   // when dceremnt function is invok so at the first step it check the counter value if it
   //found counter equal to or less then 0 so it disable the decrement function calling btn
