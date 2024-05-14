@@ -46,6 +46,24 @@ h1 {
 
 }
 
+/* span{
+    font-size: 50px;
+    width: 40%;
+    
+    text-shadow: 2px -2px 2px white;
+    background-image: linear-gradient(to right, rgb(166, 61, 61), orange);
+    /* border: 2px solid brown; */
+    box-shadow: 2px 10px 15px brown;
+    text-align: center; */
+
+
+    /* font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 2px 8px 8px rgb(181, 22, 22);
+    background-color: rgba(240, 83, 83,0.2); */
+
+
+
 .push {
     /* border: 2px solid brown; */
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), orange);
